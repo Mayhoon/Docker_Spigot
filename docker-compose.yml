@@ -1,0 +1,11 @@
+version: "3.8"  # optional since v1.27.0
+services:
+
+  spigot:
+    container_name: spigot
+    build: ./
+    expose: 
+      - 25565
+    ports:
+      - "25565:25565"
+  
